@@ -1,55 +1,36 @@
-# python-pyqt6-venv
+# python-pyqt5-venv
 
-## Step
+- MacOS(M2 chip)
+
+## Clone
 
 ```
+$ git clone https://github.com/choewy/python-pyqt-venv
+```
+
+## PyQt5
+
+- nodejs
+- python3.9
+
+```
+$ cd pyqt5
 $ npm i
-```
-
-### Install Python3.10 for Mac(brew)
-
-```
 $ npm run install:python
-```
-
-### Activate venv(create venv if not exists)
-
-```
 $ npm run venv
+$ npm run install:package
+$ npm run start
 ```
 
-### Install venv dependencies
+## PyQt6
+
+- nodejs
+- python3.10
 
 ```
-(venv) npm run install:package
-```
-
-### Run python3(with nodemon)
-
-```
-(venv) npm run start
-```
-
-## Environment
-
-- `./.env.json`
-
-```ts
-{
-  version: string;
-}
-```
-
-## Other
-
-### Freeze venv dependencies
-
-```
-(venv) npm run freeze
-```
-
-### Uninstall venv dependencies
-
-```
-(venv) npm run uninstall:package
+$ cd pyqt6
+$ npm i
+$ npm run venv
+$ npm run install:package
+$ npm run start
 ```
