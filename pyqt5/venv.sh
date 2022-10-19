@@ -1,7 +1,8 @@
 #!/bin/bash
 
 if [ ! -d ./venv ]; then
-  python3 -m venv venv
+  brew cat pyqt@5 | grep 'depends_on.*python'
+  /opt/homebrew/bin/python3.9 -m venv --system-site-packages venv
 fi
 
 script_dir=`dirname $0`

@@ -1,12 +1,12 @@
 {
-  "name": "python-pyqt6-venv",
+  "name": "python-pyqt5-venv",
   "version": "1.0.0",
   "description": "",
   "dependencies": {
     "nodemon": "^2.0.20"
   },
   "scripts": {
-    "install:python": "brew install python@3.10",
+    "install:python": "brew install python@3.9 && brew install pyqt@5",
     "install:package": "pip3 install -r package.conf",
     "uninstall:package": "pip3 uninstall -r package.conf -y",
     "freeze": "pip3 freeze > package.conf",
