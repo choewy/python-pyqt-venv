@@ -1,6 +1,8 @@
-# python-pyqt5-venv
+# python-pyqt-venv
 
 - MacOS(M2 chip)
+- python3.9 : pyqt5(homebrew)
+- python3.10 : pyqt6
 
 ## Clone
 
